@@ -209,7 +209,7 @@ var shadedCube = function() {
         
         document.getElementById("ButtonResetRotation").onclick = function() { 
             theta = vec3(0, 0, 0);
-            flag = true; // Stop rotation if it's currently active
+            flag = false; // Stop rotation if it's currently active
         };
 
         // Set up initial camera position
